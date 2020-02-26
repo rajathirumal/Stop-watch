@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .p-tags {
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(227, 231, 235);
+        font-size: 20px;
+      }
+      #time-display {
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .btn-align {
+        margin: auto;
+        margin-top: 10px;
+        width: 60%;
+        text-align: center;
+        padding: 10px;
+      }
+      #start-btn {
+        width: 90px;
+        margin-right: 20px;
+      }
+      #reset-btn {
+        width: 90px;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p-tags">
+      <p id="session-display">Session ends in</p>
+      <p id="time-display">2:00</p>
+    </div>
+
+    <div class="btn-align">
+      <input type="button" id="start-btn" value="Start" />
+      <input type="button" id="reset-btn" value="Stop/Reset" />
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
